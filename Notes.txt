@@ -1,0 +1,16 @@
+Notes:
+
+.nav
+  .nav-container
+    .nav__logo
+    .nav__button
+      .button-lines
+    .nav__content
+      .list
+        .list__item
+          .nav__link
+            span
+
+--------------------
+
+كتيب المشاريع العمانية

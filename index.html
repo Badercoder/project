@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- script -->
+    <script src="/js/navBarSection.js" defer></script>
+    <script src="/js/opacity.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+     <nav class="nav">
+      <div class="container">
+        <a class="nav__logo" href="#home">OBC</a>
+        <input type="checkbox" id="navButton">
+        <label for="navButton" class="nav__button">
+          <div class="button-lines"></div>
+          <div class="button-lines"></div>
+          <div class="button-lines"></div>
+          <div class="button-lines"></div>
+        </label>
+        <div class="nav__content">
+          <ul class="list">
+            <li class="list__item">
+              <a href="#home" class="nav__link active"><span>Home</span></a>
+            </li>
+            <li class="list__item">
+              <a href="#catalogue" class="nav__link"><span>Catalogue</span></a>
+            </li>
+            <li class="list__item">
+              <a href="#about" class="nav__link"><span>About</span></a>
+            </li>
+            <li class="list__item">
+              <a href="#contact" class="nav__link"><span>Contact</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </nav>
+     <!-- Home -->
+      <section class="section home" id="home">
+        <div class="container">
+          <h2>Home Page</h2>
+        </div>
+      </section>
+      <!-- Catalogue -->
+      <section class="section catalogue bg-image" id="catalogue">
+        <div class="container">
+          <h2>The Catalogue</h2>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="section about bg-image" id="about">
+
+        <img class="about__image" src="/images/Oman00.png" alt="Omani Product Logo">
+
+        <div class="container">
+          <div class="about-text">
+            <h1 class="about__title">The Omani Businesses Catalogue</h1>
+            <div class="about__content">
+              <p>
+                The purpose of this project is to connect the local omani community with its community of enterprenuers, and support everyone make a living while creating circular economy with a very low funds going outside of our beloved country Oman.
+              </p>
+              <ul>
+                <li>So for the <span>omani enterprenuers</span>, please contact us to list your business details here to make it easier for consumers to find you and grow your sales 😄.</li>
+                <li>And for all the <span>consumers</span>, please come checkup on this website again and again to find updates about the omani businesses in your neighbourhood 😉.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- Contact -->
+      <section class="section contact bg-image" id="contact">
+        <div class="container">
+          <h2>Contact us</h2>
+        </div>
+      </section>
+
+      <footer class="footer section--dark" id="footer">
+        <div class="container">
+          <ul class="list list--inline social-icons">
+            <li>
+              <a href="#footer" title="we are currently only on instagram"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#footer" title="we are currently only on instagram"><i class="ri-youtube-fill"></i></a>
+            </li>
+          </ul>
+          <p>Copyright &copy; 2024 Snapshot Studio | Design: <a href="#">Templatemo</a></p>
+        </div>
+      </footer>
+  </body>
+</html>
